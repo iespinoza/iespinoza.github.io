@@ -119,13 +119,13 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+  
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    color: #777;
     background-color: #fed136;
 }
 
@@ -253,7 +253,9 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #E0E0E0;
+ background-image: url(../img/map.png);        
+      
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -652,8 +654,8 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-color: #ddd;
+
     background-position: center;
     background-repeat: no-repeat;
 }
